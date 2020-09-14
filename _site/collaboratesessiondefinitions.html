@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blackboard Dev Docs</title>
+    <meta name="description" content="">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
+          rel="stylesheet">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <link rel="shortcut icon" href="/assets/img/favicon-96x96.png">
+    <!-- CSS and fonts -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="assets/css/main.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+        });
+    
+        $(document).ready(function(){
+        $('.collapsible').collapsible();
+      });           
+    </script>
+</head>
+<body class="grey darken-4">
+<div class="container">
+    <div id="first-header-content" class="row valign-wrapper">
+        <div class="col s7">
+            <img src="assets/img/bb_logo.png" alt="Blackboard logo">
+            <span id="dev-docs-span-text" class="white-text text-white">Dev Docs</span>
+        </div>
+        <div id="search-submit-btn" class="input-field col s3 white-text text-white right-align">
+            <input id="searchbox" type="text" placeholder="Find answers" class="validate right-align">
+        </div>
+        <div id="search-button-submit-div" class="col s2 right-align">
+            <button id="search-button-submit" class="btn waves-effect waves-light right-align" type="submit"
+                    name="action">
+                Search
+            </button>
+        </div>
+    </div>
+</div>
+    <div id="second-header">
+    <ul id="slide-out" class="sidenav sidenav">
+        <li><div class="user-view">
+        <div class="background">
+            <img src="/assets/img/nav_advanced_learning.png">
+        </div>
+        <a href="#logo"><img class="circle" src="/assets/img/bb_logo_short.jpg"></a>
+        <a href="#slogan"><span class="white-text name">Let's Advance Learning</span></a>
+        <a href="#email"><span class="white-text email">developers@blackboard.com</span></a>
+        </div></li>
+        <!--  Some links
+        <li><a href="#!">First Sidebar Link</a></li>
+        <li><a href="#!">Second Sidebar Link</a></li>
+        -->
+        <!-- Learn -->
+        <li class="no-padding">
+        <ul class="collapsible collapsible-accordion">
+            <li>
+            <a class="collapsible-header">Learn<i class="material-icons">school</i></a>
+            <div class="collapsible-body">
+                <ul>
+                <li><a href="#!">First</a></li>
+                <li><a href="#!">Second</a></li>
+                <li><a href="#!">Third</a></li>
+                <li><a href="#!">Fourth</a></li>
+                </ul>
+            </div>
+            </li>
+        </ul>
+        </li>
+        <!-- Collaborate -->
+        <li class="no-padding">
+        <ul class="collapsible collapsible-accordion">
+            <li>
+            <a class="collapsible-header">Collaborate<i class="material-icons">mic</i></a>
+            <div class="collapsible-body">
+                <ul>
+                <li><a href="#!">First</a></li>
+                <li><a href="#!">Second</a></li>
+                <li><a href="#!">Third</a></li>
+                <li><a href="#!">Fourth</a></li>
+                </ul>
+            </div>
+            </li>
+        </ul>
+        </li>
+        <!-- Mobile -->
+        <li class="no-padding">
+        <ul class="collapsible collapsible-accordion">
+            <li>
+            <a class="collapsible-header">Mobile<i class="material-icons">phone_iphone</i></a>
+            <div class="collapsible-body">
+                <ul>
+                <li><a href="#!">First</a></li>
+                <li><a href="#!">Second</a></li>
+                <li><a href="#!">Third</a></li>
+                <li><a href="#!">Fourth</a></li>
+                </ul>
+            </div>
+            </li>
+        </ul>
+        </li>
+        <!-- Ally -->
+        <li class="no-padding">
+        <ul class="collapsible collapsible-accordion">
+            <li>
+            <a class="collapsible-header">Ally<i class="material-icons">picture_as_pdf</i></a>
+            <div class="collapsible-body">
+                <ul>
+                <li><a href="#!">First</a></li>
+                <li><a href="#!">Second</a></li>
+                <li><a href="#!">Third</a></li>
+                <li><a href="#!">Fourth</a></li>
+                </ul>
+            </div>
+            </li>
+        </ul>
+        </li>
+    <!-- DVBA -->
+        <li class="no-padding">
+        <ul class="collapsible collapsible-accordion">
+            <li>
+            <a class="collapsible-header">DVBA<i class="material-icons">web_asset</i></a>
+            <div class="collapsible-body">
+                <ul>
+                <li><a href="#!">First</a></li>
+                <li><a href="#!">Second</a></li>
+                <li><a href="#!">Third</a></li>
+                <li><a href="#!">Fourth</a></li>
+                </ul>
+            </div>
+            </li>
+        </ul>
+        </li>
+    <!-- Standards -->
+        <li class="no-padding">
+        <ul class="collapsible collapsible-accordion">
+            <li>
+            <a class="collapsible-header">Standards<i class="material-icons">lightbulb_outline</i></a>
+            <div class="collapsible-body">
+                <ul>
+                <li><a href="#!">First</a></li>
+                <li><a href="#!">Second</a></li>
+                <li><a href="#!">Third</a></li>
+                <li><a href="#!">Fourth</a></li>
+                </ul>
+            </div>
+            </li>
+        </ul>
+        </li>
+    <!-- Blogs -->
+        <li class="no-padding">
+        <ul class="collapsible collapsible-accordion">
+            <li>
+            <a class="collapsible-header">Blogs<i class="material-icons">book</i></a>
+            <div class="collapsible-body">
+                <ul>
+                <li><a href="#!">First</a></li>
+                <li><a href="#!">Second</a></li>
+                <li><a href="#!">Third</a></li>
+                <li><a href="#!">Fourth</a></li>
+                </ul>
+            </div>
+            </li>
+        </ul>
+        </li>
+    
+    </ul>
+    <div class="container" id="main_menu_second_bar_container">
+        <div class="valign-wrapper" id="main_menu_second_bar">
+            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        </div>
+            
+    </div>
+
+    </div>
+</div>
+
+<div class="valign-wrapper" id="third-header">
+    <h2 class="center-align">Collaborate Session Definitions</h2>
+</div>
+<div id="body_before_container"> 
+    <div class="container">
+        <p>In Blackbard Collaborate, Sessions are what lies at the center of everything. This is the virtual room that you enroll users to, share content, and host your live course events. The purpose of this document is to define the settings available to you, the developer, when you create a new session through the Collaborate REST API.</p>
+
+<p>For illustration, here is a sample session event that would be sent to POST /sessions.</p>
+
+<div class="language-json highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="w">
+</span><span class="p">{</span><span class="w">
+  </span><span class="nl">"name"</span><span class="p">:</span><span class="w"> </span><span class="s2">"My Collab Room"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"description"</span><span class="p">:</span><span class="w"> </span><span class="s2">"The room I use for Collab meetings"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"startTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2020-03-27T16:00:00.000Z"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"endTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2020-03-27T17:00:00.000Z"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"noEndDate"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"createdTimezone"</span><span class="p">:</span><span class="w"> </span><span class="s2">"America/New_York"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"courseRoomEnabled"</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"boundaryTime"</span><span class="p">:</span><span class="w"> </span><span class="s2">"15"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"participantCanUseTools"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"occurrenceType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"S"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"recurrenceRule"</span><span class="p">:</span><span class="w"> </span><span class="p">{</span><span class="w">
+    </span><span class="nl">"recurrenceEndType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"on_date"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"daysOfTheWeek"</span><span class="p">:</span><span class="w"> </span><span class="p">[</span><span class="w">
+      </span><span class="s2">"mo"</span><span class="w">
+    </span><span class="p">],</span><span class="w">
+    </span><span class="nl">"recurrenceType"</span><span class="p">:</span><span class="w"> </span><span class="s2">"daily"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"interval"</span><span class="p">:</span><span class="w"> </span><span class="s2">"1"</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"numberOfOccurrences"</span><span class="p">:</span><span class="w"> </span><span class="mi">0</span><span class="p">,</span><span class="w">
+    </span><span class="nl">"endDate"</span><span class="p">:</span><span class="w"> </span><span class="s2">"2020-03-27T17:00:00.000Z"</span><span class="w">
+  </span><span class="p">},</span><span class="w">
+  </span><span class="nl">"allowInSessionInvitees"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"allowGuest"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"guestRole"</span><span class="p">:</span><span class="w"> </span><span class="s2">"participant"</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"canAnnotateWhiteboard"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"canDownloadRecording"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"canPostMessage"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"canShareAudio"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"canShareVideo"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"mustBeSupervised"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"openChair"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"raiseHandOnEnter"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"showProfile"</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="p">,</span><span class="w">
+  </span><span class="nl">"sessionExitUrl"</span><span class="p">:</span><span class="w"> </span><span class="s2">"https://myeventsurvey.school.edu"</span><span class="w">
+</span><span class="p">}</span><span class="w">
+
+</span></code></pre></div></div>
+
+<p>The following table defines the available settings in the sample JSON package above:</p>
+
+<table class="striped">
+  <thead>
+    <tr>
+      <th style="text-align: center">Setting</th>
+      <th style="text-align: center">Description</th>
+      <th style="text-align: center">Example</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">name <strong>(required)</strong></td>
+      <td style="text-align: center">The name of the session, displayed in the header of the room</td>
+      <td style="text-align: center">“My Collab Room”</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">description</td>
+      <td style="text-align: center">A description of the room</td>
+      <td style="text-align: center">“The room I use for Collab meetings”</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">startTime <strong>(required)</strong></td>
+      <td style="text-align: center">The ISO-formatted date to start the session as a string</td>
+      <td style="text-align: center">“2020-03-27T16:00:00.000Z”</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">endTime</td>
+      <td style="text-align: center">The ISO-formatted date to end the session as a string</td>
+      <td style="text-align: center">“2020-03-27T17:00:00.000Z”</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">noEndDate</td>
+      <td style="text-align: center">Boolean describing whether the room has an end date</td>
+      <td style="text-align: center">TRUE</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">createdTimezone</td>
+      <td style="text-align: center">The time zone to create the room in</td>
+      <td style="text-align: center">“America/New_York”</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">courseRoomEnabled</td>
+      <td style="text-align: center">A Boolean specific to Blackboard Learn that describes whether this room is automatically associated with a course</td>
+      <td style="text-align: center">FALSE</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">boundaryTime</td>
+      <td style="text-align: center">Number of minutes a user can join a session before the start time. Must be 0, 15, 30, 45, or 60.</td>
+      <td style="text-align: center">15</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">ParticipantCanUseTools</td>
+      <td style="text-align: center">A Boolean that describes whether a use can use tools, such as application sharing, screen sharing, timer, and polls</td>
+      <td style="text-align: center">TRUE</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">occurrenceType</td>
+      <td style="text-align: center">Single-Use or Perpetual session. Must be “S” or “P”</td>
+      <td style="text-align: center">“S”</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">recurrenceRule</td>
+      <td style="text-align: center">A JSON object describing recurrence rules for a session</td>
+      <td style="text-align: center"> </td>
+    </tr>
+    <tr>
+      <td style="text-align: center">recurrenceEndType</td>
+      <td style="text-align: center">The method to describe the end of the sessions recurrence. Must be “on_date” or “after_occurence_count”</td>
+      <td style="text-align: center">“on_date”</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">daysOfTheWeek</td>
+      <td style="text-align: center">The days of the week this session will occur. Must be “mo”, “tu”, “we”, “th”, “fr”, “sa”, or “su”</td>
+      <td style="text-align: center">[ “mo”, “we”, “fr” ]</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">recurrenceType</td>
+      <td style="text-align: center">How often to repeat your session. Must be “daily”, “weekly”, or “monthly”</td>
+      <td style="text-align: center">“daily”</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">interval</td>
+      <td style="text-align: center">The number of days, weeks, or months between occurrences, as defined by recurrenceType.</td>
+      <td style="text-align: center">“1”</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">numberOfOccurrences</td>
+      <td style="text-align: center">If recurrenceEndDate is set to “after_occurence_count,” this is the number of occurrences to have</td>
+      <td style="text-align: center">5</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">endDate</td>
+      <td style="text-align: center">If recurrenceEndDate is set to “on_date,” The ISO-formatted date of the last session.</td>
+      <td style="text-align: center">“2020-03-27T17:00:00.000Z”</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">allowInSessionInvitees</td>
+      <td style="text-align: center">A Boolean describing whether a presenter can send invitations from within the session</td>
+      <td style="text-align: center">TRUE</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">allowGuest</td>
+      <td style="text-align: center">A Boolean describing whether guests can attend a session</td>
+      <td style="text-align: center">FALSE</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">guestRole</td>
+      <td style="text-align: center">The role to assign to guest attendees. Must be “participant”, “presenter”, or “moderator”</td>
+      <td style="text-align: center">“participant”</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">canAnnotateWhiteboard</td>
+      <td style="text-align: center">A Boolean that describes whether users can annotate the whiteboard</td>
+      <td style="text-align: center">TRUE</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">canDownloadRecording</td>
+      <td style="text-align: center">A Boolean that describes whether users can download the recording</td>
+      <td style="text-align: center">FALSE</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">canPostMessage</td>
+      <td style="text-align: center">A Boolean that describes whether users can post chat messages</td>
+      <td style="text-align: center">TRUE</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">canShareAudio</td>
+      <td style="text-align: center">A Boolean that describes whether users can share their audio</td>
+      <td style="text-align: center">TRUE</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">canShareVideo</td>
+      <td style="text-align: center">A Boolean that describes whether users can share their webcam</td>
+      <td style="text-align: center">TRUE</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">mustBeSupervised</td>
+      <td style="text-align: center">A Boolean that describes whether users must be moderated in chat</td>
+      <td style="text-align: center">TRUE</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">openChair</td>
+      <td style="text-align: center">A Boolean that describes whether users that join should be made moderator</td>
+      <td style="text-align: center">FALSE</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">raiseHandOnEnter</td>
+      <td style="text-align: center">A Boolean that describes whether users will automatically raise their hands when they enter the session</td>
+      <td style="text-align: center">FALSE</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">showProfile</td>
+      <td style="text-align: center">A Boolean that describes whether users can share their profiles with other users, including their avatar</td>
+      <td style="text-align: center">TRUE</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">sessionExitUrl</td>
+      <td style="text-align: center">A url to redirect users to on session exit. This should be a string</td>
+      <td style="text-align: center">“https://myeventsurvey.school.edu”</td>
+    </tr>
+  </tbody>
+</table>
+
+    </div>
+</div>
+
+<footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Blackboard dev docs</h5>
+          <p class="grey-text text-lighten-4">We have created this site as a repository for guides, documentation and more for our Blackboard developer 
+            community. Please feel free to reach us out at developers@blackboard.com if you have any questions. Happy Coding!</p>
+            <h5 class="white-text">Community</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="https://community.blackboard.com/home">-> Be a part of our Community!</a></li>
+              <li><a class="grey-text text-lighten-3" href="#">-> Become an official Blackboard partner!</a></li>
+              <li><a class="grey-text text-lighten-3" href="#">-> Get involved in the community!</a></li>
+            </ul>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Quick APIs access</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="https://developer.blackboard.com/portal/displayApi">Blackboard Learn API</a></li>
+            <li><a class="grey-text text-lighten-3" href="https://app.swaggerhub.com/apis-docs/BBDN/collaborate-api/1.0.0">Blackboard Collaborate API</a></li>
+            <li><a class="grey-text text-lighten-3" href="https://ally.ac/api/">Blackboard Ally API</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      © 2020 Blackboard, Inc
+      <a class="grey-text text-lighten-4 right" target="_blank" href="https://www.blackboard.com">Blackboard.com</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

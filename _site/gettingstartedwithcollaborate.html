@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Blackboard Dev Docs</title>
+    <meta name="description" content="">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"
+          rel="stylesheet">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <link rel="shortcut icon" href="/assets/img/favicon-96x96.png">
+    <!-- CSS and fonts -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="assets/css/main.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <!-- JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+        });
+    
+        $(document).ready(function(){
+        $('.collapsible').collapsible();
+      });           
+    </script>
+</head>
+<body class="grey darken-4">
+<div class="container">
+    <div id="first-header-content" class="row valign-wrapper">
+        <div class="col s7">
+            <img src="assets/img/bb_logo.png" alt="Blackboard logo">
+            <span id="dev-docs-span-text" class="white-text text-white">Dev Docs</span>
+        </div>
+        <div id="search-submit-btn" class="input-field col s3 white-text text-white right-align">
+            <input id="searchbox" type="text" placeholder="Find answers" class="validate right-align">
+        </div>
+        <div id="search-button-submit-div" class="col s2 right-align">
+            <button id="search-button-submit" class="btn waves-effect waves-light right-align" type="submit"
+                    name="action">
+                Search
+            </button>
+        </div>
+    </div>
+</div>
+    <div id="second-header">
+    <ul id="slide-out" class="sidenav sidenav">
+        <li><div class="user-view">
+        <div class="background">
+            <img src="/assets/img/nav_advanced_learning.png">
+        </div>
+        <a href="#logo"><img class="circle" src="/assets/img/bb_logo_short.jpg"></a>
+        <a href="#slogan"><span class="white-text name">Let's Advance Learning</span></a>
+        <a href="#email"><span class="white-text email">developers@blackboard.com</span></a>
+        </div></li>
+        <!--  Some links
+        <li><a href="#!">First Sidebar Link</a></li>
+        <li><a href="#!">Second Sidebar Link</a></li>
+        -->
+        <!-- Learn -->
+        <li class="no-padding">
+        <ul class="collapsible collapsible-accordion">
+            <li>
+            <a class="collapsible-header">Learn<i class="material-icons">school</i></a>
+            <div class="collapsible-body">
+                <ul>
+                <li><a href="#!">First</a></li>
+                <li><a href="#!">Second</a></li>
+                <li><a href="#!">Third</a></li>
+                <li><a href="#!">Fourth</a></li>
+                </ul>
+            </div>
+            </li>
+        </ul>
+        </li>
+        <!-- Collaborate -->
+        <li class="no-padding">
+        <ul class="collapsible collapsible-accordion">
+            <li>
+            <a class="collapsible-header">Collaborate<i class="material-icons">mic</i></a>
+            <div class="collapsible-body">
+                <ul>
+                <li><a href="#!">First</a></li>
+                <li><a href="#!">Second</a></li>
+                <li><a href="#!">Third</a></li>
+                <li><a href="#!">Fourth</a></li>
+                </ul>
+            </div>
+            </li>
+        </ul>
+        </li>
+        <!-- Mobile -->
+        <li class="no-padding">
+        <ul class="collapsible collapsible-accordion">
+            <li>
+            <a class="collapsible-header">Mobile<i class="material-icons">phone_iphone</i></a>
+            <div class="collapsible-body">
+                <ul>
+                <li><a href="#!">First</a></li>
+                <li><a href="#!">Second</a></li>
+                <li><a href="#!">Third</a></li>
+                <li><a href="#!">Fourth</a></li>
+                </ul>
+            </div>
+            </li>
+        </ul>
+        </li>
+        <!-- Ally -->
+        <li class="no-padding">
+        <ul class="collapsible collapsible-accordion">
+            <li>
+            <a class="collapsible-header">Ally<i class="material-icons">picture_as_pdf</i></a>
+            <div class="collapsible-body">
+                <ul>
+                <li><a href="#!">First</a></li>
+                <li><a href="#!">Second</a></li>
+                <li><a href="#!">Third</a></li>
+                <li><a href="#!">Fourth</a></li>
+                </ul>
+            </div>
+            </li>
+        </ul>
+        </li>
+    <!-- DVBA -->
+        <li class="no-padding">
+        <ul class="collapsible collapsible-accordion">
+            <li>
+            <a class="collapsible-header">DVBA<i class="material-icons">web_asset</i></a>
+            <div class="collapsible-body">
+                <ul>
+                <li><a href="#!">First</a></li>
+                <li><a href="#!">Second</a></li>
+                <li><a href="#!">Third</a></li>
+                <li><a href="#!">Fourth</a></li>
+                </ul>
+            </div>
+            </li>
+        </ul>
+        </li>
+    <!-- Standards -->
+        <li class="no-padding">
+        <ul class="collapsible collapsible-accordion">
+            <li>
+            <a class="collapsible-header">Standards<i class="material-icons">lightbulb_outline</i></a>
+            <div class="collapsible-body">
+                <ul>
+                <li><a href="#!">First</a></li>
+                <li><a href="#!">Second</a></li>
+                <li><a href="#!">Third</a></li>
+                <li><a href="#!">Fourth</a></li>
+                </ul>
+            </div>
+            </li>
+        </ul>
+        </li>
+    <!-- Blogs -->
+        <li class="no-padding">
+        <ul class="collapsible collapsible-accordion">
+            <li>
+            <a class="collapsible-header">Blogs<i class="material-icons">book</i></a>
+            <div class="collapsible-body">
+                <ul>
+                <li><a href="#!">First</a></li>
+                <li><a href="#!">Second</a></li>
+                <li><a href="#!">Third</a></li>
+                <li><a href="#!">Fourth</a></li>
+                </ul>
+            </div>
+            </li>
+        </ul>
+        </li>
+    
+    </ul>
+    <div class="container" id="main_menu_second_bar_container">
+        <div class="valign-wrapper" id="main_menu_second_bar">
+            <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        </div>
+            
+    </div>
+
+    </div>
+</div>
+
+<div class="valign-wrapper" id="third-header">
+    <h2 class="center-align">Getting Started with Collaborate</h2>
+</div>
+<div id="body_before_container"> 
+    <div class="container">
+        <p>This section is dedicated to getting developers up-to-speed quickly with the new REST APIs available for Blackboard Collaborate with the Ultra Experience. These APIs give the developer the ability to programmatically integrate common Collaborate functionality into a web application using the tried and true framework that is REST APIs.</p>
+
+<p>Getting started requires a few key decisions on the developer’s part. Firstly, the Developer should decide what programming language best meets the use cases required for the application to be successful. Every language has strengths and weaknesses, and with a little research, one can balance ease of use, performance, security, and existing frameworks and packages to build the best integration possible. Secondly, the developer should review the API documentation to ensure that the APIs exist to accomplish those goals. Lastly, the Developer must decide if this work is best completed in-house or via an engagement with Blackboard Collaborate’s consulting group. Often times, consulting is a great option for building an integration based on best practices developed over many years of experience integrating with Blackboard Collaborate.</p>
+
+<h4 id="requesting-access">Requesting Access</h4>
+<p>If you are interested in getting started with the Development of integrations with Blackboard Collaborate Ultra, send an email to developers@blackboard.com. Please tell us who you are, what institution you represent, and how you intend to use the APIs.</p>
+
+<h4 id="authorization-and-authentication">Authorization and Authentication</h4>
+<p>Generally speaking, REST API integrations are largely the same. That is the beauty of REST; the developer has a standard set of HTTP Verbs that generally perform the same actions, return the same success and failure codes, and most languages provide software packages and add-ons that make REST calls simple. Usually, the main hurdle is two-fold: What is the business logic behind the APIs, and how does an application authenticate to the services in order to send the REST calls necessary to perform the actions required.</p>
+
+<p>Most REST frameworks rely on some facet of the OAuth 2.0 standard and Blackboard Collaborate is no different. Collaborate relies on JSON Web Tokens (JWT) in order to accept the application as a trusted entity. For more detailed information about the JWT Standard and to learn about available libraries for most of today’s popular web application development languages, see https://jwt.io. For more information on Blackboard Collaborate’s implementation see Authorize and Authenticate in Blackboard Collaborate.</p>
+
+<h4 id="examples">Examples</h4>
+<p>It is true that REST APIs allow the developer to choose any programming language that supports HTTP calls. That said, there are some languages that are consistently at the top of the list. As part of the effort to assist Developers in getting up and running, Blackboard typically offers sample code and supporting documentation in a number of those popular languages:</p>
+
+<ul>
+  <li>Postman Collection</li>
+  <li>Java</li>
+  <li>Python</li>
+  <li>Ruby</li>
+  <li>PHP</li>
+  <li>C#/.NET</li>
+  <li>Node.JS</li>
+</ul>
+
+<p>As these samples are developed, the language above will be linked.</p>
+
+<h4 id="tutorials">Tutorials</h4>
+<p>The community site will also provide tutorials for how to perform specific actions necessary to get up and running in the Collaborate integration game. As those assets are developed, they will be listed here.</p>
+
+    </div>
+</div>
+
+<footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Blackboard dev docs</h5>
+          <p class="grey-text text-lighten-4">We have created this site as a repository for guides, documentation and more for our Blackboard developer 
+            community. Please feel free to reach us out at developers@blackboard.com if you have any questions. Happy Coding!</p>
+            <h5 class="white-text">Community</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="https://community.blackboard.com/home">-> Be a part of our Community!</a></li>
+              <li><a class="grey-text text-lighten-3" href="#">-> Become an official Blackboard partner!</a></li>
+              <li><a class="grey-text text-lighten-3" href="#">-> Get involved in the community!</a></li>
+            </ul>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Quick APIs access</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="https://developer.blackboard.com/portal/displayApi">Blackboard Learn API</a></li>
+            <li><a class="grey-text text-lighten-3" href="https://app.swaggerhub.com/apis-docs/BBDN/collaborate-api/1.0.0">Blackboard Collaborate API</a></li>
+            <li><a class="grey-text text-lighten-3" href="https://ally.ac/api/">Blackboard Ally API</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+      © 2020 Blackboard, Inc
+      <a class="grey-text text-lighten-4 right" target="_blank" href="https://www.blackboard.com">Blackboard.com</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
